@@ -17,6 +17,8 @@ theme:
     - scheme: default
       primary: indigo
       accent: blue
+extra_css:
+  - assets/pdf-font.css
 markdown_extensions:
   - admonition
   - attr_list
@@ -27,8 +29,11 @@ markdown_extensions:
 plugins:
   - search
   - to-pdf:
-      author: "ทีมพัฒนาคู่มือ"
-      copyright: "© 2024"
+      cover_subtitle: "คู่มือเชิงปฏิบัติการสร้าง Dashboard โดยใช้ Looker Studio"
+      author: "วีร์ ศรีทิพโพธิ์"
+      copyright: "© 2568 กองการอนุญาต กรมป่าไม้"
+      toc_title: "สารบัญ"
       output_path: "pdf/looker-studio-workshop.pdf"
+      download_link: header
 nav:
   - บทนำ: index.md
