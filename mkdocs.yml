@@ -1,7 +1,7 @@
 site_name: "Looker Studio Workshop Guide"
 site_description: "คู่มือเชิงปฏิบัติการสร้าง Dashboard โดยใช้ Looker Studio"
-site_url: ""
-repo_url: "https://github.com/example/looker-studio-manual"
+site_url: "https://weeix.github.io/looker-studio-manual"
+repo_url: "https://github.com/weeix/looker-studio-manual"
 repo_name: "looker-studio-manual"
 theme:
   name: material
