@@ -1,13 +1,5 @@
 # คู่มือเชิงปฏิบัติการ: สร้าง Dashboard โดยใช้ Looker Studio
 
-## ภาพรวมโครงการเอกสาร
-คู่มือนี้ถูกออกแบบให้เผยแพร่ได้ทั้ง HTML (Material for MkDocs) และไฟล์ PDF (MkDocs with PDF plugin) พร้อมตั้งค่า GitHub Actions สำหรับเผยแพร่อัตโนมัติบน GitHub Pages. โครงสร้างที่แนะนำสำหรับคลังข้อมูลคือ:
-
-- `mkdocs.yml` — กำหนดธีม Material, ปลั๊กอินสร้าง PDF และเมนูนำทาง
-- `docs/` — เนื้อหาคู่มือ (ไฟล์ Markdown)
-- `.github/workflows/` — สคริปต์ GitHub Actions สำหรับ build และ deploy
-- `requirements.txt` — รายการไลบรารี Python ที่ต้องใช้ในการ build
-
 ### วัตถุประสงค์ของ Workshop
 ผู้เรียน (บุคลากรสายสนับสนุนและผู้ปฏิบัติงานทั่วไป) จะได้ฝึกปฏิบัติการตั้งแต่การเตรียมข้อมูล ไปจนถึงการสร้างรายงานและปรับจูนเพื่อใช้งานบนมือถือ โดยใช้ Looker Studio ร่วมกับข้อมูลตัวอย่างใน Google Sheets
 
@@ -111,29 +103,3 @@
 ## บทสรุปและแนวทางเผยแพร่เอกสาร
 - ผู้เรียนได้ฝึกตั้งแต่การเตรียมข้อมูลปีเดียว → รวมหลายปี → ปรับแต่งสำหรับมือถือ
 - การเตรียมข้อมูล (Data Prep) คือหัวใจสำคัญ: ถ้าจัดเป็นรูปแบบ **Master Data** จะสร้างรายงานครั้งเดียวและใช้ต่อได้ยาวนาน
-
-### ขั้นตอน Build & Deploy ด้วย Material for MkDocs
-1. ติดตั้งเครื่องมือ:
-   ```bash
-   pip install -r requirements.txt
-   ```
-2. สร้างเอกสาร HTML และ PDF:
-   ```bash
-   mkdocs build --strict
-   ```
-   - HTML จะอยู่ในโฟลเดอร์ `site/`
-   - PDF จะถูกสร้างที่ `site/pdf/looker-studio-workshop.pdf`
-3. พรีวิวเอกสารแบบโลคัล:
-   ```bash
-   mkdocs serve
-   ```
-   แล้วเปิด `http://127.0.0.1:8000`
-
-### GitHub Actions สำหรับ GitHub Pages
-เวิร์กโฟลว์ใน `.github/workflows/deploy.yml` จะรันเมื่อมีการ push ไปยังสาขา `main` หรือสั่ง `workflow_dispatch` โดยอัตโนมัติจะ:
-
-- ติดตั้ง dependencies ที่จำเป็นสำหรับ Material for MkDocs และปลั๊กอิน PDF
-- รัน `mkdocs build --strict` เพื่อตรวจสอบเนื้อหา
-- รัน `mkdocs gh-deploy --force --remote-branch gh-pages` เพื่อเผยแพร่ไปยัง GitHub Pages โดยใช้ `GITHUB_TOKEN`
-
-> หลังการดีพลอย ให้ตั้งค่าหน้า GitHub Pages ของคลังให้ใช้สาขา `gh-pages` และโฟลเดอร์รากเป็นแหล่งเผยแพร่
