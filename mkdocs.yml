@@ -26,7 +26,7 @@ markdown_extensions:
       permalink: true
 plugins:
   - search
-  - with-pdf:
+  - to-pdf:
       author: "ทีมพัฒนาคู่มือ"
       copyright: "© 2024"
       output_path: "pdf/looker-studio-workshop.pdf"
