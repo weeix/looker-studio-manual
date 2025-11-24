@@ -1,0 +1,34 @@
+site_name: "Looker Studio Workshop Guide"
+site_description: "คู่มือเชิงปฏิบัติการสร้าง Dashboard โดยใช้ Looker Studio"
+site_url: ""
+repo_url: "https://github.com/example/looker-studio-manual"
+repo_name: "looker-studio-manual"
+theme:
+  name: material
+  language: th
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.footer
+    - content.code.copy
+    - content.tabs.link
+    - toc.integrate
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: blue
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - md_in_html
+  - toc:
+      permalink: true
+plugins:
+  - search
+  - with-pdf:
+      author: "ทีมพัฒนาคู่มือ"
+      copyright: "© 2024"
+      output_path: "pdf/looker-studio-workshop.pdf"
+nav:
+  - บทนำ: index.md
