@@ -40,6 +40,14 @@ body,
     line-height: 1.7;
   }
 
+  .admonition p {
+    font-size: 1.1rem;
+  }
+
+  p.admonition-title {
+    font-size: 0.9rem !important;
+  }
+
   /* Make the generated PDF table of contents more legible */
   #doc-toc {
     font-size: 1.1rem;
