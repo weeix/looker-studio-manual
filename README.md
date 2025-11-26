@@ -11,6 +11,8 @@
    ```bash
    mkdocs serve
    ```
+   > **หมายเหตุ:** ปัจจุบัน auto reloading จะไม่ทำงานเนื่องจาก bug ในไลบรารี click วิธีแก้ไขชั่วคราวคือให้ใช้คำสั่ง `mkdocs serve --livereload` แทน หรือติดตั้งไลบรารี click รุ่น 8.2.1 แทน (`pip install click==8.2.1`) ทั้งนี้ จนกว่า [issue #8478](https://github.com/squidfunk/mkdocs-material/issues/8478) จะได้รับการแก้ไข
+
    เปิดเบราว์เซอร์ไปที่ http://127.0.0.1:8000
 3. สร้างไฟล์ HTML และ PDF
    ```bash
