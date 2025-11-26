@@ -10,3 +10,4 @@
 - [Workshop 2: การเชื่อมต่อข้อมูล](workshop-2.md)
 - [Workshop 3: การสร้างการแสดงผล](workshop-3.md)
 - [Workshop 4: การรวมศูนย์ข้อมูลและการอัปเกรดรายงาน](workshop-4.md)
+- [Workshop เสริมที่ 1: การเรียงลำดับข้อมูลในรายงาน](workshop-supplement-1.md)
