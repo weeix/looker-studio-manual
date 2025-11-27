@@ -40,7 +40,9 @@ body,
     line-height: 1.7;
   }
 
-  .admonition p {
+  .admonition p,
+  .admonition ol,
+  .admonition ul {
     font-size: 1.1rem;
   }
 
