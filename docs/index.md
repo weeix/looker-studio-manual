@@ -9,5 +9,6 @@
 - [Workshop 1: การจัดเตรียมและทำความสะอาดข้อมูล](workshop-1.md)
 - [Workshop 2: การเชื่อมต่อข้อมูล](workshop-2.md)
 - [Workshop 3: การสร้างการแสดงผล](workshop-3.md)
-- [Workshop 4: การรวมศูนย์ข้อมูลและการอัปเกรดรายงาน](workshop-4.md)
-- [Workshop เสริมที่ 1: การเรียงลำดับข้อมูลในรายงาน](workshop-supplement-1.md)
+- [Workshop 4: การสร้างตารางสรุป (Pivot Table)](workshop-4.md)
+- [Workshop เสริมที่ 1: การทำให้เลือกดูข้อมูลตามปีงบประมาณได้](workshop-supplement-1.md)
+- [Workshop เสริมที่ 2: การเรียงลำดับข้อมูลในรายงาน](workshop-supplement-2.md)
