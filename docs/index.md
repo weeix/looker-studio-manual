@@ -12,3 +12,4 @@
 - [Workshop 4: การสร้างตารางสรุป (Pivot Table)](workshop-4.md)
 - [Workshop เสริมที่ 1: การทำให้เลือกดูข้อมูลตามปีงบประมาณได้](workshop-supplement-1.md)
 - [Workshop เสริมที่ 2: การเรียงลำดับข้อมูลในรายงาน](workshop-supplement-2.md)
+- [Workshop เสริมที่ 3: การแสดงวันที่ปรับปรุงล่าสุด](workshop-supplement-3.md)
