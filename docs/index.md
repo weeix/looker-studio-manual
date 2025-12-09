@@ -13,3 +13,4 @@
 - [Workshop เสริมที่ 1: การทำให้เลือกดูข้อมูลตามปีงบประมาณได้](workshop-supplement-1.md)
 - [Workshop เสริมที่ 2: การเรียงลำดับข้อมูลในรายงาน](workshop-supplement-2.md)
 - [Workshop เสริมที่ 3: การแสดงวันที่ปรับปรุงล่าสุด](workshop-supplement-3.md)
+- [Workshop เสริมที่ 4: เพิ่มความทนทานต่อข้อมูลแปลกปลอม](workshop-supplement-4.md)
