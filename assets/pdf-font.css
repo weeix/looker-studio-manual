@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+:root {
+  --md-text-font: "Sarabun", "Noto Sans Thai", sans-serif;
+  --md-code-font: "Sarabun", "Noto Sans Thai", sans-serif;
+}
+
+html,
+body,
+.md-typeset,
+.md-header,
+.md-nav,
+.md-footer {
+  font-family: "Sarabun", "Noto Sans Thai", sans-serif !important;
+}
+
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3,
+.md-typeset h4,
+.md-typeset h5,
+.md-typeset h6,
+.md-typeset strong {
+  font-family: "Sarabun", "Noto Sans Thai", sans-serif;
+}
+
+#doc-cover,
+#doc-cover * {
+  font-family: "Sarabun", "Noto Sans Thai", sans-serif !important;
+}
+
+@media print {
+  html {
+    font-size: 18px;
+  }
+
+  body,
+  .md-typeset {
+    font-size: 1.05rem;
+    line-height: 1.7;
+  }
+
+  .admonition p,
+  .admonition ol,
+  .admonition ul {
+    font-size: 1.1rem;
+  }
+
+  p.admonition-title {
+    font-size: 0.9rem !important;
+  }
+
+  /* Make the generated PDF table of contents more legible */
+  #doc-toc {
+    font-size: 1.1rem;
+    line-height: 1.75;
+  }
+
+  #doc-toc h1 {
+    font-size: 1.4rem;
+    margin-bottom: 0.4rem;
+  }
+
+  #doc-toc a {
+    font-size: 1.05rem;
+  }
+}
